@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #EAF2CE;
+            margin: 0px;
+        }
+
+        header{
+            background-color: #B6D96A;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.37);
+        }
+
+        nav{
+            background-color: #53A62D;
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.37);
+        }
+
+        nav > a {
+            text-decoration: none;
+            margin-right: 30px;
+            color: black;
+            
+        }
+
+        a:hover{
+            background-color:#53A62D;
+        }
+
+        main{
+            background-color: #9CD918;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.37);
+            border-radius: 5px;
+        }
+
+        footer{
+            background-color: #707365;
+            text-align: center;
+            margin: 10px;
+            padding: 4px;
+            font-weight: bold;
+        }
+
+        footer > p{
+            margin: 0px;
+        
+        }
+
+        article > aside{
+            background-color: #53A62D;
+            padding: 1px;
+            text-decoration: solid;
+            color: black;
+            text-align: left;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Jogadores</a>
+            <a href="#">Times</a>
+            <a href="#">Mapas</a>
+            <a href="#">Major</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>CSGO Avança como jogo no mundo !</h2>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o CSGO</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est beatae maxime corrupti eos ea exercitationem nobis quis eveniet repellat quia necessitatibus omnis asperiores eaque voluptatem odit, amet vitae pariatur temporibus.</p>
+                <aside>
+                    <p>Artigo feito por Vinicius Gabine</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Gabine</p>
+    </footer>
+</body>
+</html>
